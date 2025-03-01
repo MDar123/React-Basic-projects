@@ -8,6 +8,6 @@
                     <li>Input amount to convert.</li>
                     <li>Display converted amount based on current rates.</li>
                 </ul>
-                <p><strong>Technologies Used:</strong> React.js, JavaScript, HTML, CSS</p>
+                <p><strong>Technologies Used:</strong> React.js, JavaScript, HTML, tailwindCss</p>
             </li>
         </ul>
