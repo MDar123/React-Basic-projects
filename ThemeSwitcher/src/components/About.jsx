@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <>
-    <h1>About</h1>
+    <h1 className='dark:text-white text-3xl font-bold font-serif'>About</h1>
     </>
   )
 }

@@ -9,7 +9,7 @@ function App() {
     <Routes>
       <Route path='' element={
         <>
-            <div style={{width:'100wh',height:'90vh',display:'flex',justifyContent:'center',alignItems:'center'}}>
+            <div className='w-screen h-[90vh] flex justify-center items-center bg-gray-200 dark:bg-black'>
             <Layout />
             </div>
         </>
