@@ -45,6 +45,15 @@ export class AuthService {
       throw new Error(error);
     }
   }
+
+  async getCurrentUser(){
+    try {
+      return await this.account.get()
+    } catch (error) {
+      console.log('Error while getting info',error)
+    }
+    return null
+  }
 }
 const authservice = new AuthService();
 

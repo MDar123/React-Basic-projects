@@ -17,7 +17,7 @@ export class PostService {
     }
 
     // Methods for post (CRUD)
-    async createPost({title,content,slug,Image,status,userID}){
+    async  createPost({title,content,slug,Image,status,userID}){
         try {
             return await this.databases.createDocument(
                 conf.appWriteDatabaseId,
@@ -89,6 +89,44 @@ export class PostService {
     }
 
     // Methods for file (CRUD)
+
+    async uploadFile(file){
+        try {
+            await this.storage.createFile(
+                conf.appWriteBucketId,
+                ID.unique(),
+                file
+            )
+            return true
+        } catch (error) {
+            console.log('Error while uploading file',error);
+        }
+    }
+
+    async deleteFile(fileID){
+        try {
+            await this.storage.deleteFile(
+                conf.appWriteBucketId,
+                fileID
+            )
+            return true
+        } catch (error) {
+            console.log('Error while deleting file',error)
+            return false
+        }
+    }
+
+    async getFilePreview(fileID){
+        try {
+            return this.storage.getFilePreview(
+                conf.appWriteBucketId,
+                fileID
+            )
+        } catch (error) {
+            console.log('Error while getting preview of file',error)
+            return false
+        }
+    }
 }
 
 const postService = new PostService();
