@@ -21,16 +21,18 @@ export default App;
 function Home(){
   return(
     <>
-    <div className="h-screen w-full bg-amber-200">
-    <Link to='/counter'>
-    <button className="p-3 rounded-lg shadow shadow-amber-200 bg-gray-500 text-white">
-      See Counter App</button>
-    </Link>
-    <Link to='/todo' >
-    <button className="p-3 rounded-lg shadow shadow-amber-200 bg-gray-500 text-white">
-      See Todo App</button>
-    </Link>
-    </div>
+   <div className="mt-6 flex justify-center gap-4">
+        <Link to='/counter'>
+          <button className="p-3 rounded-lg shadow-md bg-gray-500 text-white hover:bg-gray-600 transition">
+            See Counter App
+          </button>
+        </Link>
+        <Link to='/todo'>
+          <button className="p-3 rounded-lg shadow-md bg-gray-500 text-white hover:bg-gray-600 transition">
+            See Todo App
+          </button>
+        </Link>
+      </div>
     </>
   )
 }
