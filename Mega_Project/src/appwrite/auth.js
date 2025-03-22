@@ -21,6 +21,7 @@ export class AuthService {
       );
       if (userAccount) {
         // call to login
+        this.login(userAccount)
       } else {
         throw new Error("User Account not created");
       }
@@ -31,9 +32,12 @@ export class AuthService {
 
   async login({ email, password }) {
     try {
-      return await this.account.createSession(email, password);
+      return await this.account.createEmailPasswordSession(
+        email, 
+        password
+    );
     } catch (error) {
-      alert("Invalid credentials");
+      // alert("Invalid credentials");
       throw new Error(error);
     }
   }
