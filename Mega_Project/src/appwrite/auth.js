@@ -32,12 +32,8 @@ export class AuthService {
 
   async login({ email, password }) {
     try {
-      return await this.account.createEmailPasswordSession(
-        email, 
-        password
-    );
+      return await this.account.createEmailPasswordSession(email,password);
     } catch (error) {
-      // alert("Invalid credentials");
       throw new Error(error);
     }
   }
