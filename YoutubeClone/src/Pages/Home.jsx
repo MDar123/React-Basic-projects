@@ -1,16 +1,33 @@
-import React, { useState,useEffect } from 'react'
-import {Navbar,SideBar,HomeFeed} from '../components'
+import React, { useState,useEffect,useMemo } from 'react'
+import {Navbar,SideBar,VideoFeed, Loader} from '../components'
 import Box from '@mui/material/Box';
 import { fetchVideos } from '../utils/ApiService';
+
+
+
 const Home = () => {
 
   const [selectedCategory, setselectedCategory] = useState('New')
   const [videos,setVideos] = useState([])
+  const [loading,setLoading] = useState(false)
+
+  const memoizeCode = useMemo( () => {
+    return <VideoFeed videos={videos} />
+  } ,[videos] )
+
+
+  const fetchData = async () => {
+    setLoading(true);
+   const response = await fetchVideos(`search?part=snippet&q=${selectedCategory}`);
+   setVideos(response.items);
+   setLoading(false);
+  }
+
   useEffect( () => {
-    fetchVideos(`search?part=snippet&q=${selectedCategory}`).then( response => {
-      setVideos(response.items)
-    } )
+    fetchData();
   },[selectedCategory])
+
+
   return (
     <>
         <Box>
@@ -18,8 +35,9 @@ const Home = () => {
         </Box>
         <Box sx={{display:'flex'}}>
         <SideBar selectedCategory={selectedCategory} setselectedCategory={setselectedCategory} />
-        <HomeFeed selectedCategory={selectedCategory} videos={videos} />
+        {loading ? <Loader /> : memoizeCode}
         </Box>
+        
     </>
   )
 }
