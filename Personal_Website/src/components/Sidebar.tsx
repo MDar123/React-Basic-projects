@@ -17,7 +17,7 @@ const Sidebar = () => {
   return (
     <>
       {/* Mobile Bottom Navigation (YouTube-style) */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 bg-[#0a0d37] border-t border-[#1a1443] z-50 md:hidden">
+      <div className="fixed bottom-0 left-0 right-0 bg-[#0a0d37] border-t border-[#1a1443] z-50 md:hidden">
         <nav className="flex justify-around items-center h-16">
           {navItems.map((item) => {
             const isActive = location.pathname === item.path

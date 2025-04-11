@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Github, Linkedin, Facebook, Code2 } from "lucide-react"
+import { ButtonProps, SocialLinkProps } from "../types"
 
 const Home = () => {
   return (
@@ -144,7 +145,7 @@ const Home = () => {
   )
 }
 
-const SocialLink = ({ href, icon }) => (
+const SocialLink = ({ href, icon }:SocialLinkProps) => (
   <a
     target="_blank"
     rel="noopener noreferrer"
@@ -155,7 +156,7 @@ const SocialLink = ({ href, icon }) => (
   </a>
 )
 
-const Button = ({ href, children }) => (
+const Button = ({children }:ButtonProps) => (
   <button className="px-6 py-3 bg-gradient-to-r from-pink-500 to-violet-600 rounded-lg text-white hover:scale-105 transition-all duration-300">
     {children}
   </button>

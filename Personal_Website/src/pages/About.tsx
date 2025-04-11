@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <section className="container mx-auto px-4 py-8">
+    <section className="container mx-auto px-4 pb-12">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

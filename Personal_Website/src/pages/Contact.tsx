@@ -3,7 +3,7 @@ import { MessageCircle, Github, Linkedin, Mail } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <section className="container mx-auto px-4 py-8">
+    <section className="container mx-auto px-4 py-14">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

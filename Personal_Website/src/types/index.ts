@@ -25,10 +25,9 @@ export interface Project {
   liveLink: string
 }
 
-export interface SkillCategory {
-  title: string
-  icon: LucideIcon
-  skills: string[]
+export interface Skill {
+  name: string
+  icon: string
 }
 
 export interface Education {

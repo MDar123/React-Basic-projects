@@ -16,10 +16,10 @@ function App() {
   return (
     <Router>
       <div className="flex min-h-screen bg-[#0d1224]">
-        <div className="fixed h-full">
+        <div>
           <Sidebar />
         </div>
-        <main className="flex-1 lg:ml-[250px] p-4 sm:p-6 lg:p-8 overflow-x-hidden">
+        <main className="flex-1 p-4 sm:p-6 lg:p-8 overflow-x-hidden">
           <AppRoutes />
         </main>
       </div>
