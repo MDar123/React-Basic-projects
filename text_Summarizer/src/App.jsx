@@ -8,21 +8,21 @@ function App() {
   const [response,setResponse] = useState("")
   const [role,setRole] = useState("")
   const handleResponse =async () => {
-    const response =await getResponse({message:'Tell me current president of Pakistan ?'})
+    const response = await getResponse({message:'Tell me current president of Pakistan ?'})
     setResponse(response?.content)
     setRole(response?.role?response?.role : 'User')
   }
 
-  useEffect( () => {
-    handleResponse()
-  } ,[])
+  // useEffect( () => {
+  //   handleResponse()
+  // } ,[])
 
   return (
     <>
       <div>
         <h1 className="text-2xl text-center">This is a Demo Project </h1>
         <Form />
-        <Form ref={textRef} />
+        <Form ref={textRef} value={response} />
       </div>
       <button
       onClick={handleResponse}

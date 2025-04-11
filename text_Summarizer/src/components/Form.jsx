@@ -14,7 +14,7 @@ const Form = ({value,readonly},ref) => {
         setText(data.text)
     } )}>
       <textarea name="text" id="text"
-       placeholder='Enter Text to Summarize' 
+       placeholder={value?'':'Enter Text to summarize'} 
        {...register('text')} 
        className='border-2 border-black rounded-md w-1/5 h-20'
        ref={ref}
