@@ -20,7 +20,7 @@ const Education = () => {
   ];
 
   return (
-    <section className="container mx-auto px-4 py-14">
+    <section className="container mx-auto px-4 py-12 lg:py-0">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

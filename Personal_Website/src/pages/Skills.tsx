@@ -3,7 +3,7 @@ import {skills}  from "../utils/Constants.ts";
 import { Skill } from '../types/index.js';
 const Skills = () => {
   return (
-    <section className="container mx-auto px-4 py-14">
+    <section className="container mx-auto px-4 py-14 lg:py-0">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

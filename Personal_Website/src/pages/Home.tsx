@@ -1,9 +1,7 @@
-"use client"
-
 import { motion } from "framer-motion"
 import { Github, Linkedin, Facebook, Code2 } from "lucide-react"
 import { ButtonProps, SocialLinkProps } from "../types"
-
+import { Link } from "react-router-dom"
 const Home = () => {
   return (
     <section className="relative flex flex-col items-center justify-center py-4 lg:py-1 md:ml-0 lg:ml-20">
@@ -28,8 +26,17 @@ const Home = () => {
           </div>
 
           <div className="buttons flex gap-2 flex-wrap">
-            <Button href="/contact">Contact Me</Button>
-            <Button>Get Resume</Button>
+            <Button>
+              <Link to="/contact">
+              Contact Me
+              </Link>
+              
+              </Button>
+            <Button>
+              <a href="https://dl.dropboxusercontent.com/scl/fi/u6jz8pvux97qp31elqu5n/Mujtaba_dar_frontend_resume.pdf?rlkey=i3h3dr9uuyc6awb7v528owjc5&st=fjmi5bzu&dl=0" download={'Mujtaba_dar_frontend_resume'} >
+              Get Resume
+              </a>
+              </Button>
           </div>
         </motion.div>
 

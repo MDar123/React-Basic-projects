@@ -49,12 +49,12 @@ const Projects = () => {
         "A smart, interactive AI assistant designed to streamline daily tasks and answer queries with precision.This project highlights my proficiency in AI integrations and intuitive user experience design.",
       image: "https://dl.dropboxusercontent.com/scl/fi/inyajcsb6pz1k20jaw99h/project-002.png?rlkey=7eprjyb6wpgp41zimlnx0na8l&st=ourukh8i&dl=0",
       liveLink: "https://ai-assistant-eight-gules.vercel.app/",
-      techStack: ['React', 'Tailwindcss','Gemini']
+      techStack: ['React','TypeScript', 'Tailwindcss','Gemini']
     },
   ]
 
   return (
-    <section className="w-full  mx-auto px-4 py-8">
+    <section className="w-full  mx-auto px-4 py-8 lg:py-0">
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mb-12">
         <h2 className="text-2xl sm:text-3xl font-bold text-center text-white mb-8 sm:mb-12">My Projects</h2>
 
