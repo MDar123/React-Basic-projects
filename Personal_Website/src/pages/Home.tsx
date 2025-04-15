@@ -89,6 +89,8 @@ const Home = () => {
                   <span className="text-gray-400">{"', '"}</span>
                   <span className="text-amber-300">React</span>
                   <span className="text-gray-400">{"', '"}</span>
+                  <span className="text-amber-300">Nextjs</span>
+                  <span className="text-gray-400">{"', '"}</span>
                   <span className="text-amber-300">Django</span>
                   <span className="text-gray-400">{"', '"}</span>
                   <span className="text-amber-300">Firebase</span>
