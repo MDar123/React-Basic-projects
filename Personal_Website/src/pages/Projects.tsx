@@ -51,6 +51,14 @@ const Projects = () => {
       liveLink: "https://ai-assistant-eight-gules.vercel.app/",
       techStack: ['React','TypeScript', 'Tailwindcss','Gemini']
     },
+    {
+      title: "Custom Apparel Manufacturing and Designing Website",
+      description:
+        "I developed Husky Wears, a WordPress-based custom apparel website with on-demand design, mobile responsiveness, secure order forms, and brand-focused design for scalable growth.",
+      image: "https://dl.dropboxusercontent.com/scl/fi/o4kpwledp6jk9w7raek4y/Huskywears-1.png?rlkey=rxqzi0udi4l40qy6cjpihfoba&st=d0zu32p9&dl=0",
+      liveLink: "https://huskywears.com/",
+      techStack: ['HTML','CSS', 'Wordpress','Elementor']
+    }
   ]
 
   return (
