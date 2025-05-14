@@ -12,30 +12,6 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Hospital Appointment Booking App",
-      description:
-        "Schedule appointments with ease using our user-friendly app. Choose your preferred doctor, select a convenient time, and receive instant confirmation.",
-      image: "https://th.bing.com/th/id/R.74de32e14de594ea151e750e8f7edeeb?rik=F9k%2bG4U53IUXHA&pid=ImgRaw&r=0",
-      liveLink: "#",
-      techStack: ['Angular', 'Tailwindcss']
-    },
-    {
-      title: "Quiz App",
-      description:
-        "Challenge yourself with our interactive quizzes. Choose from various topics and see how well you score!",
-      image: "https://user-images.githubusercontent.com/48409548/104132046-a39e5b80-539c-11eb-9df3-28d52e499a6c.png",
-      liveLink: "https://quiz-app-flame-one.vercel.app/",
-      techStack: ['Angular', 'Tailwindcss']
-    },
-    {
-      title: "Student Portal App",
-      description:
-        "Access grades, assignments, announcements, and more. Stay organized and connected with your school community.",
-      image: "https://mnabe.zendesk.com/hc/article_attachments/4406121308941/210730_student_portal_login.jpg",
-      liveLink: "https://student-portal-3kgn5iz6f-mujtaba-dars-projects.vercel.app/",
-      techStack: ['Angular', 'Tailwindcss']
-    },
-    {
       title: "Software Agency Website",
       description:
         "A sleek, responsive software agency website built with React and Vite, delivering engaging design and seamless functionality This project showcases my expertise in modern web development and innovative digital experiences.",
@@ -58,6 +34,30 @@ const Projects = () => {
       image: "https://dl.dropboxusercontent.com/scl/fi/o4kpwledp6jk9w7raek4y/Huskywears-1.png?rlkey=rxqzi0udi4l40qy6cjpihfoba&st=d0zu32p9&dl=0",
       liveLink: "https://huskywears.com/",
       techStack: ['HTML','CSS', 'Wordpress','Elementor']
+    },
+    {
+      title: "Hospital Appointment Booking App",
+      description:
+        "Schedule appointments with ease using our user-friendly app. Choose your preferred doctor, select a convenient time, and receive instant confirmation.",
+      image: "https://th.bing.com/th/id/R.74de32e14de594ea151e750e8f7edeeb?rik=F9k%2bG4U53IUXHA&pid=ImgRaw&r=0",
+      liveLink: "#",
+      techStack: ['Angular', 'Tailwindcss']
+    },
+    {
+      title: "Quiz App",
+      description:
+        "Challenge yourself with our interactive quizzes. Choose from various topics and see how well you score!",
+      image: "https://user-images.githubusercontent.com/48409548/104132046-a39e5b80-539c-11eb-9df3-28d52e499a6c.png",
+      liveLink: "https://quiz-app-flame-one.vercel.app/",
+      techStack: ['Angular', 'Tailwindcss']
+    },
+    {
+      title: "Student Portal App",
+      description:
+        "Access grades, assignments, announcements, and more. Stay organized and connected with your school community.",
+      image: "https://mnabe.zendesk.com/hc/article_attachments/4406121308941/210730_student_portal_login.jpg",
+      liveLink: "https://student-portal-3kgn5iz6f-mujtaba-dars-projects.vercel.app/",
+      techStack: ['Angular', 'Tailwindcss']
     }
   ]
 
