@@ -3,14 +3,20 @@ import { ArrowRight } from "lucide-react"
 import {skills}  from "../utils/Constants.ts";
 const Projects = () => {
 
-
-  
   const skillsMap = skills.reduce((acc, skill) => {
     acc[skill.name] = skill.icon;
     return acc;
   }, {} as Record<string, string>);
 
   const projects = [
+    {
+      title: "AI Resume Enhancer",
+      description:
+        " Resumify is an AI powered resume enhancer that tailors your resume to match any job description. It extracts key skills and requirements from the job post and aligns them with your existing resume.  With just a few clicks, you get a more targeted, professional, and job-ready resume",
+      image: "https://dl.dropboxusercontent.com/scl/fi/vih2bz6far7u8ef7326p6/Resumify.png?rlkey=gnwd1k2lrsevg8i85t4khrpmk&st=0oanmcm6&dl=0",
+      liveLink: "https://resumify-ashen.vercel.app/",
+      techStack: ['React', 'Tailwindcss','Gemini','Framer Motion']
+    },
     {
       title: "Software Agency Website",
       description:
