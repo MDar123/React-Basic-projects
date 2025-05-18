@@ -10,7 +10,7 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "AI Resume Enhancer",
+      title: "Resumify",
       description:
         " Resumify is an AI powered resume enhancer that tailors your resume to match any job description. It extracts key skills and requirements from the job post and aligns them with your existing resume.  With just a few clicks, you get a more targeted, professional, and job-ready resume",
       image: "https://dl.dropboxusercontent.com/scl/fi/vih2bz6far7u8ef7326p6/Resumify.png?rlkey=gnwd1k2lrsevg8i85t4khrpmk&st=0oanmcm6&dl=0",
