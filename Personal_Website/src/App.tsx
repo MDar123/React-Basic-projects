@@ -4,6 +4,7 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 import Sidebar from "./components/Sidebar"
 import AppRoutes from "./routes/AppRoutes"
+import WhatsAppButton from "./components/whatsapp-button"
 
 function App() {
   useEffect(() => {
@@ -22,6 +23,10 @@ function App() {
         <main className="flex-1 p-4 lg:ml-[250px] sm:p-6 lg:p-8 overflow-x-hidden">
           <AppRoutes />
         </main>
+        <WhatsAppButton
+        phoneNumber="+923248458533" // Replace with your actual WhatsApp number
+        message="Hi! I saw your portfolio and would like to discuss a project."
+      />
       </div>
     </Router>
   )
