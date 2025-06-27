@@ -3,19 +3,9 @@ import { motion } from 'framer-motion';
 const Education = () => {
   const education = [
     {
-      period: "October 2022 - Present",
+      period: "October 2021 - 2025",
       degree: "BS Information Engineering Technology",
       institution: "University of Lahore"
-    },
-    {
-      period: "2020 - 2022",
-      degree: "Intermediate In Computer Science",
-      institution: "Crescent College Shadman Campus, Lahore"
-    },
-    {
-      period: "2018 - 2020",
-      degree: "Matriculation",
-      institution: "The Smart School, Lahore"
     }
   ];
 
