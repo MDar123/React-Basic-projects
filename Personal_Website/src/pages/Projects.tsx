@@ -18,14 +18,6 @@ const Projects = () => {
       techStack: ['React', 'Tailwindcss','Gemini','Framer Motion'] 
     },
     {
-      title: "Software Agency Website",
-      description:
-        "A sleek, responsive software agency website built with React and Vite, delivering engaging design and seamless functionality This project showcases my expertise in modern web development and innovative digital experiences.",
-      image: "https://dl.dropboxusercontent.com/scl/fi/fud7t421rqyawkp6dqxhf/project-001.png?rlkey=xkgs45egswlsxgdnxmc9cnszo&st=8vxj7a4c&dl=0",
-      liveLink: "https://software-agency-website-mauve.vercel.app/",
-      techStack: ['React', 'Tailwindcss']
-    },
-    {
       title: "AI Assistant Using Gemini API",
       description:
         "A smart, interactive AI assistant designed to streamline daily tasks and answer queries with precision.This project highlights my proficiency in AI integrations and intuitive user experience design.",
@@ -40,15 +32,7 @@ const Projects = () => {
       image: "https://dl.dropboxusercontent.com/scl/fi/o4kpwledp6jk9w7raek4y/Huskywears-1.png?rlkey=rxqzi0udi4l40qy6cjpihfoba&st=d0zu32p9&dl=0",
       liveLink: "https://huskywears.com/",
       techStack: ['HTML','CSS', 'Wordpress','Elementor']
-    },
-    {
-      title: "Hospital Appointment Booking App",
-      description:
-        "Schedule appointments with ease using our user-friendly app. Choose your preferred doctor, select a convenient time, and receive instant confirmation.",
-      image: "https://th.bing.com/th/id/R.74de32e14de594ea151e750e8f7edeeb?rik=F9k%2bG4U53IUXHA&pid=ImgRaw&r=0",
-      liveLink: "#",
-      techStack: ['Angular', 'Tailwindcss']
-    },
+    }
   ]
 
   return (

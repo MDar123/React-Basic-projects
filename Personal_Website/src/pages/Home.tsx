@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import { Github, Linkedin, Facebook, Code2 } from "lucide-react"
+import { Github, Linkedin, Facebook } from "lucide-react"
 import { ButtonProps, SocialLinkProps } from "../types"
 import { Link } from "react-router-dom"
 const Home = () => {
@@ -22,7 +22,6 @@ const Home = () => {
             <SocialLink href="https://github.com/MDar123" icon={<Github size={30} />} />
             <SocialLink href="https://www.linkedin.com/in/mujtaba-sohail-dar-27937b280" icon={<Linkedin size={30} />} />
             <SocialLink href="https://www.facebook.com/mujtaba.dar.129" icon={<Facebook size={30} />} />
-            <SocialLink href="https://leetcode.com/u/ag9oGt3hh8" icon={<Code2 size={30} />} />
           </div>
 
           <div className="buttons flex gap-2 flex-wrap">
@@ -91,9 +90,13 @@ const Home = () => {
                   <span className="text-gray-400">{"', '"}</span>
                   <span className="text-amber-300">Nextjs</span>
                   <span className="text-gray-400">{"', '"}</span>
+                  <span className="text-amber-300">Vuejs</span>
+                  <span className="text-gray-400">{"', '"}</span>
                   <span className="text-amber-300">Django</span>
                   <span className="text-gray-400">{"', '"}</span>
                   <span className="text-amber-300">Firebase</span>
+                  <span className="text-gray-400">{"', '"}</span>
+                  <span className="text-amber-300">Supabase</span>
                   <span className="text-gray-400">{"'],"}</span>
                 </div>
                 <div>

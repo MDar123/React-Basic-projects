@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom"
-import { Home, User, Briefcase, Code, GraduationCap, Mail, Layers } from "lucide-react"
+import { Home, User, Briefcase, Code, Mail, Layers , Wrench } from "lucide-react"
 
 const Sidebar = () => {
   const location = useLocation()
@@ -9,8 +9,8 @@ const Sidebar = () => {
     { path: "/about", label: "About", icon: User },
     { path: "/experience", label: "Experience", icon: Briefcase },
     { path: "/projects", label: "Projects", icon: Code },
+    { path: "/services", label: "Services", icon: Wrench },
     { path: "/skills", label: "Skills", icon: Layers },
-    { path: "/education", label: "Education", icon: GraduationCap },
     { path: "/contact", label: "Contact", icon: Mail },
   ]
 
@@ -70,7 +70,9 @@ const Sidebar = () => {
         </nav>
 
         <div className="mt-auto pt-6 border-t border-[#1a1443]">
-          <p className="text-sm text-gray-400 text-center">&copy; 2024 Mujtaba Dar</p>
+        <p className="text-sm text-gray-400 text-center">
+  &copy; {new Date().getFullYear()} Mujtaba Dar
+</p>
         </div>
       </div>
     </>

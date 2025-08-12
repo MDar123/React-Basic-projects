@@ -1,4 +1,4 @@
-import { useState ,useMemo, useCallback} from 'react'
+import { useState ,useMemo} from 'react'
 
 function App() {
   const [count, setCount] = useState(1)
@@ -19,7 +19,7 @@ export default App
 
 function ChildComponent({value}){
 
-  const fn = useCallback( () => {
+  const fn = useMemo( () => {
     console.log("I am Memoized Function")
   } , [] )
 
@@ -32,7 +32,7 @@ function ChildComponent({value}){
       }
       <h1>Child Component value of count is : {value}</h1>
       <p> 
-        {fn()}
+        {fn}
       </p>
     </div>
   )

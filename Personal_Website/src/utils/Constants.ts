@@ -5,6 +5,8 @@ export const skills = [
     { name: 'TypeScript', icon: 'https://mughis.vercel.app/_next/static/media/typescript.97711300.svg' },
     { name: 'Angular', icon: 'https://th.bing.com/th/id/OIP.Klh1l7wkoG6PDPb9A5oCHQHaHa?rs=1&pid=ImgDetMain' },
     { name: 'React', icon: 'https://mughis.vercel.app/_next/static/media/react.512a3a7e.svg' },
+    { name: 'Nextjs', icon: '/public/nextjs-icon.svg' },
+    { name: 'Vuejs', icon: '/public/vuejs-icon.svg' },
     { name: 'Firebase', icon: 'https://mughis.vercel.app/_next/static/media/firebase.20c6dcf8.svg' },
     { name: 'Django', icon: 'https://dl.dropboxusercontent.com/scl/fi/lyyqag6bvaa1b1m860if4/django-icon.png?rlkey=pdhlcwyzh3qf9e5375kciljrq&st=bjpfrerx&dl=0' },
     { name: 'Tailwindcss', icon: 'https://mughis.vercel.app/_next/static/media/tailwind.c0bbaf6f.svg' },
