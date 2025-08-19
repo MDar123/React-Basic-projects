@@ -18,6 +18,14 @@ const Projects = () => {
       techStack: ['React', 'Tailwindcss','Gemini','Framer Motion'] 
     },
     {
+      title: "UolConnect",
+      description:
+        " UolCinnect is a discussion forum platfor that proided UOL students to connect with each other , share knowledge and guide each other on different topics including career , acadeics issues and more. It is a platform where students can ask questions, share their experiences, and get help from their peers.",
+      image: "https://dl.dropboxusercontent.com/scl/fi/vih2bz6far7u8ef7326p6/Resumify.png?rlkey=gnwd1k2lrsevg8i85t4khrpmk&st=0oanmcm6&dl=0",
+      liveLink: "https://resumify-ashen.vercel.app/",
+      techStack: ['React', 'TypeScript' , 'Tailwindcss'] 
+    },
+    {
       title: "AI Assistant Using Gemini API",
       description:
         "A smart, interactive AI assistant designed to streamline daily tasks and answer queries with precision.This project highlights my proficiency in AI integrations and intuitive user experience design.",
