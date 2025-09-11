@@ -32,7 +32,7 @@ const Home = () => {
               
               </Button>
             <Button>
-              <a href="https://dl.dropboxusercontent.com/scl/fi/9ss1h3j1f35nczoe8kxpl/Mujtaba_dar_Frontend_resume.pdf?rlkey=xc80ci70qsqiel0gfxj5uwhuc&st=fyfloa0s&dl=0" download={'Mujtaba_dar_frontend_resume'} >
+              <a href="https://dl.dropboxusercontent.com/scl/fi/kr1f785tw2vdjdmo9bbwa/Mujtaba_Dar_Frontend_Developer_Resume.pdf?rlkey=7t2y2g3536n4mthjxrk0z6jb9&st=zeui7k4e&dl=0" download={'Mujtaba_Dar_Frontend_Resume'} >
               Get Resume
               </a>
               </Button>
